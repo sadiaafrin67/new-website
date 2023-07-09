@@ -1,0 +1,10 @@
+.banner-container{
+    display: flex;
+    background-image: url("./new-year-new-me/images/banner/banner1.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text{
+margin: 0 auto;
+}
