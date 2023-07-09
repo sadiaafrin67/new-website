@@ -47,7 +47,8 @@ text-align: center;
 }
 .section-one{
     display: flex;
-    justify-content: center;
+    justify-content:space-around;
+    text-align: center;
     
 }
 .icon{
@@ -57,6 +58,7 @@ text-align: center;
 .text{
     margin-right: 460px;
     margin-top: 350px;
+    text-align: left;
 }
 .tile{
     color: var(--dark-01, #151414);
@@ -71,11 +73,64 @@ line-height: normal;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 26px;  
+    line-height: 26px; 
+    text-align: left; 
+    margin-bottom: 20px;
 }
 .list{
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-  <path d="M20 6L9 17L4 12" stroke="#16D887" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
-justify-content: left: ;;
+    
+text-align: left ;
+justify-content: left ;
+}
+.me{
+
+    color: var(--dark-01, #151414);
+    font-family: Work Sans;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;  
+    text-align: center;
+    margin-top: 200px;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 100px;
+    margin-bottom: 150px;
+}
+    
+  
+.cat{
+    color: var(--dark-01, #151414);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;     
+    }
+.dog{
+    color: var(--dark-03, #737272);
+    text-align: auto;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;   
+}
+.mango{
+    background-image: url(./new-year-new-me/images/watch.png);
+height: 300px;
+flex-shrink: 0;
+text-align: center;
+justify-content: center;
+border-radius: 8px;
+margin-left: 700px;
+background-repeat: no-repeat;
+background-blend-mode: overlay;
+margin right: 200px ;
+
+
 }
