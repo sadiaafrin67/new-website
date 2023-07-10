@@ -81,7 +81,7 @@ line-height: normal;
     
 text-align: left ;
 justify-content: left ;
-list-style-image: url('../icons/check.png');
+list-style-image: url(./new-year-new-me/images/icons/check.png);
 }
 .me{
 
